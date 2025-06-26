@@ -110,7 +110,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 }
 
 .store .inner .top .topright .tab-list{display: flex;width: 100%;justify-content: space-between;}
-.store .inner .top .topright .tab-list .tab-item{padding: 8px 24px;border-radius: 20px;cursor: pointer;font-size: 16px;margin-right: 16px;border: 1px solid #1d1d1d;}
+.store .inner .top .topright .tab-list .tab-item{padding: 8px 24px;border-radius: 20px;cursor: pointer;font-size: 16px;margin-right: 10px;border: 1px solid #1d1d1d;}
 .store .inner .top .topright .tab-list .tab-item:last-child {margin: 0;}
 .store .inner .top .topright .tab-list .tab-item.active {background: #1d1d1d;color: #fff;}
 .store .inner .top .topright .tab-list .tab-item:hover {background-color: #1d1d1d;color: #fff;}
@@ -312,7 +312,7 @@ background:none}
 .slider-description .slide-title {font-size: 14px;}
 .slider-description .view-map {padding: 0;border: none;border-bottom: 1px solid #1d1d1d;border-radius: 0;font-size: 12px;}
 
-.swiper-slide {position: relative;margin-bottom: 300px;}
+.swiper-slide {position: relative;margin-bottom: 180px;}
 .swiper-slide .store-info .smallText {position: absolute;bottom: -120px;left: 0;z-index: 100;}
 
 .store-slide {flex-wrap: wrap;}
@@ -363,7 +363,7 @@ footer .inner {margin-bottom: 50px;font-size: 12px;white-space: nowrap;}
 .slider-description .slide-title {font-size: 14px;}
 .slider-description .view-map {padding: 0;border: none;border-bottom: 1px solid #1d1d1d;border-radius: 0;font-size: 12px;}
 
-.swiper-slide {position: relative;margin-bottom: 300px;}
+.swiper-slide {position: relative;margin-bottom: 180px;}
 .swiper-slide .store-info .smallText {position: absolute;bottom: -120px;left: 0;z-index: 100;}
 
 .store-slide {flex-wrap: wrap;}
