@@ -353,7 +353,7 @@ footer .inner {margin-bottom: 50px;font-size: 12px;white-space: nowrap;}
 .store .inner.motion .top .title.en {font-size: 24px;white-space: nowrap;height: 100%;}
 
 
-.store .inner .top .topright .tab-list{white-space: nowrap;position: absolute;left: 15px;overflow-x: auto;scrollbar-width:none;max-width: 550px;}
+.store .inner .top .topright .tab-list{white-space: nowrap;position: absolute;left: 15px;overflow-x: auto;scrollbar-width:none;max-width: 550px; overflow: visible;}
 .store .inner .top .topright .tab-list .tab-item{padding: 8px 12px; border-radius: 20px;cursor: pointer;font-size: 14px;margin-right: 10px;border: 1px solid #1d1d1d; }
 
 .store-slider > .swiper-button-next,
