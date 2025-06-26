@@ -533,8 +533,8 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .footerWrap .footerInner .tam{font-size: 12px;}
 }
 
-@media screen and (max-width:390px){
-  header .innerheader nav .menuwrap {width: 390px;}
+@media screen and (max-width:400px){
+  header .innerheader nav .menuwrap {width: 400px;}
   header .innerheader {height: 50px;}
   header .innerheader nav {width: 100px;}
   header .innerheader nav .menuwrap .bottomMenu a {padding-left: 25px;}
@@ -547,7 +547,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
   .searchPage .center{width: 330px;}
   .searchPage .center .searchInput{font-size: 16px;}
   .searchPage .center .searchBtn{font-size: 16px;}
-  .cartPage{width: 390px;}
+  .cartPage{width: 400px;}
   .cartPage .cartInner{padding: 40px 30px;}
   .cartPage .cartInner .title{justify-content: space-between;font-size: 24px;margin-bottom: 20px;}
   .cartPage .cartInner .box .right .top .no{display: none;}
