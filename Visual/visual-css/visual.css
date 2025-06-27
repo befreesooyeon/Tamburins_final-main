@@ -309,17 +309,15 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
 .cartPage .cartInner .purBtn2{display: block;}
 
   /* visual 부분 */
-.campaign .inner .campaignVisual.motion .textwrap .logoText {width: 32px;margin: 0 auto;}
-.campaign .inner .campaignVisual.motion .leftImg{position: absolute;left: 0;top: 30%;animation: slideInLeft 1s ease-out forwards;animation-delay: 0.3s; opacity: 0}
-.campaign .inner .campaignVisual.motion .rightImg{position: absolute;right: 0;top: 10%;animation: slideInRight 1s ease-out forwards;animation-delay: 0.3s;opacity: 0;}
-.campaign .inner .campaignVisual .textwrap .eng {font-size: 20px;margin-bottom: 36px;margin-top: 350px;}
+.campaign {padding-top: 90px;}
+.campaign .inner .campaignVisual.motion .textwrap .logoText {width: 40px;margin: 0 auto;}
+.campaign .inner .campaignVisual.motion .leftImg{position: absolute;left: 0;top: 30%;animation: slideInLeft 1s ease-out forwards;animation-delay: 0.3s; opacity: 0;display: none;}
+.campaign .inner .campaignVisual.motion .rightImg{position: absolute;left:23px;top: 15%;animation: slideInRight 1s ease-out forwards;animation-delay: 0.3s;opacity: 0;width: 100%;height: 280px;}
+.campaign .inner .campaignVisual .textwrap .eng {font-size: 20px;margin-bottom: 36px;margin-top: 520px;}
 .campaign .inner .campaignVisual .textwrap br {display: none;}
 .campaign .inner .campaignVisual .textwrap .smallText {font-size: 14px;text-align: center;}
 .campaign .inner .campaignVisual .textwrap .smallText .mo {display: none;}
 .campaign .inner .campaignVisual .textwrap {width: 82%;}
-
-.campaign .inner .campaignVisual.motion .leftImg{width: 150px;left: 7%;top: 10%;}
-.campaign .inner .campaignVisual.motion .rightImg{width: 150px;right: 7%;top:15%;}
 
 
 /* campaign video */
