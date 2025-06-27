@@ -110,7 +110,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 }
 
 .store .inner .top .topright .tab-list{display: flex;width: 100%;justify-content: space-between;}
-.store .inner .top .topright .tab-list .tab-item{padding: 8px 24px;border-radius: 20px;cursor: pointer;font-size: 16px;margin-right: 10px;border: 1px solid #1d1d1d;}
+.store .inner .top .topright .tab-list .tab-item{padding: 8px 24px;border-radius: 20px;cursor: pointer;font-size: 16px;margin-right: 16px;border: 1px solid #1d1d1d;}
 .store .inner .top .topright .tab-list .tab-item:last-child {margin: 0;}
 .store .inner .top .topright .tab-list .tab-item.active {background: #1d1d1d;color: #fff;}
 .store .inner .top .topright .tab-list .tab-item:hover {background-color: #1d1d1d;color: #fff;}
@@ -312,7 +312,7 @@ background:none}
 .slider-description .slide-title {font-size: 14px;}
 .slider-description .view-map {padding: 0;border: none;border-bottom: 1px solid #1d1d1d;border-radius: 0;font-size: 12px;}
 
-.swiper-slide {position: relative;margin-bottom: 180px;}
+.swiper-slide {position: relative;margin-bottom: 300px;}
 .swiper-slide .store-info .smallText {position: absolute;bottom: -120px;left: 0;z-index: 100;}
 
 .store-slide {flex-wrap: wrap;}
@@ -349,12 +349,12 @@ footer .inner {margin-bottom: 50px;font-size: 12px;white-space: nowrap;}
 .store {width: 100%;height: 100vh;margin-bottom: 3000px;}
 .store .inner {width: 90%;margin: 0 auto;padding-top: 120px;box-sizing: border-box;}
 
-.store .inner .top {margin-bottom: 80px;}
+.store .inner .top {margin-bottom: 110px;}
 .store .inner.motion .top .title.en {font-size: 24px;white-space: nowrap;height: 100%;}
 
 
-.store .inner .top .topright .tab-list{white-space: nowrap;position: absolute;left: 15px;overflow-x: auto;scrollbar-width:none;max-width: 550px; overflow: visible;}
-.store .inner .top .topright .tab-list .tab-item{padding: 8px 12px; border-radius: 20px;cursor: pointer;font-size: 14px;margin-right: 10px;border: 1px solid #1d1d1d; }
+.store .inner .top .topright .tab-list{white-space: nowrap;position: absolute;left: 15px;overflow-x: auto;scrollbar-width:none;max-width: 550px;}
+.store .inner .top .topright .tab-list .tab-item{padding: 8px 24px;border-radius: 20px;cursor: pointer;font-size: 16px;margin-right: 16px;border: 1px solid #1d1d1d;}
 
 .store-slider > .swiper-button-next,
 .store-slider > .swiper-button-prev {display: none;}
@@ -363,7 +363,7 @@ footer .inner {margin-bottom: 50px;font-size: 12px;white-space: nowrap;}
 .slider-description .slide-title {font-size: 14px;}
 .slider-description .view-map {padding: 0;border: none;border-bottom: 1px solid #1d1d1d;border-radius: 0;font-size: 12px;}
 
-.swiper-slide {position: relative;margin-bottom: 180px;}
+.swiper-slide {position: relative;margin-bottom: 300px;}
 .swiper-slide .store-info .smallText {position: absolute;bottom: -120px;left: 0;z-index: 100;}
 
 .store-slide {flex-wrap: wrap;}

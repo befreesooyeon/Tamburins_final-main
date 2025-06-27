@@ -60,7 +60,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .cartPage .cartInner .box{display: flex;padding: 30px 0;}
 .cartPage .cartInner .box.a{border-bottom: 1px solid #000;}
 .cartPage .cartInner .box .left{width: 180px;}
-.cartPage .cartInner .box .left img{width: 100%;}
+.cartPage .cartInner .box .left img{width: 100%;object-fit: cover;height: 100%;}
 .cartPage .cartInner .box .right{margin-left: 20px;}
 .cartPage .cartInner .box .right .top{display: flex;justify-content: space-between;width: 290px;}
 .cartPage .cartInner .box .right .top .product{font-size: 16px;font-family:'Pretendard',sans-serif ;}
@@ -155,16 +155,15 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
     100% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
   }
 
-.about .aboutImg .aboutImg:hover{  filter: brightness(1.2) contrast(1.1);
+.about .aboutImg .aboutImg1:hover{  filter: brightness(1.2) contrast(1.1);
   transition: filter 0.5s ease;}
-  .about .aboutImg .aboutImg {
+  .about .aboutImg .aboutImg1 {
     position: absolute;
-    top: 85%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.96);
     transition: filter 0.5s ease;
   }
-  
   @keyframes scale {
     0% {
       transform: translate(-50%, -50%) scale(1);
@@ -225,6 +224,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .bestProduct .inner .contents ul li .name {margin-top: 10px;font-weight: 500;font-size: 16px;}
 .bestProduct .inner .contents ul li .subText{margin-top: 5px;font-size: 14px;font-weight: normal;color: #666666;}
 .bestProduct .inner .contents ul li .price{margin-top: 10px;font-size: 16px;font-weight: 500}
+.bestProduct .inner .contents ul li video{object-fit: cover;width: 100%;}
 .bestProduct .inner .contents ul li a img {width: 100%;transition: all 0.4s;}
 .bestProduct .inner .contents ul li a img {position: relative;}
 .bestProduct .inner .contents ul li a .package {position: absolute;top: 0;left: 0;opacity: 0;}
@@ -375,7 +375,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
   header .innerheader nav .menuwrap .category {display: flex;justify-content: space-between;padding: 0 25px 20px 25px;font-size: 24px}
   header .innerheader nav .menuwrap .closebtn {background: none;border: none;cursor: pointer;}
   header .innerheader nav .menuwrap .closebtn img {display: block;width: 100%;}
-  header .innerheader nav .menuwrap .text {text-align: left;height:100vh;width: 100%; overflow-y: auto;padding-bottom: 100px;}
+  header .innerheader nav .menuwrap .text {text-align: left;height:100vh;width: 100%; overflow-y: auto;padding-bottom: 100px;scrollbar-width: none;}
   header .innerheader nav .menuwrap .text .menuBusiness {font-size: 16px;color: #111;font-weight:600;padding: 15px 15px 15px;border-bottom: 1px solid #eee;display: flex;justify-content: space-between;}
   header .innerheader nav .menuwrap .text .menuBusiness.shop {border-top: 1px solid #eee;margin-top: 50px;}
   header .innerheader nav .menuwrap .text .menuBusiness span {transform: rotate(0deg);}
