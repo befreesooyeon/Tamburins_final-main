@@ -412,13 +412,13 @@ footer .inner {margin-bottom: 50px;font-size: 12px;white-space: nowrap;}
   header .innerheader nav .menuwrap .text .menuBusiness {padding: 15px 25px 15px;}
   header .innerheader nav .menuwrap .category {padding: 0 25px;}
   header .innerheader nav .menuwrap .text .hideSubmenu p{padding: 15px 25px 15px;}
-
+  .wrap.on{filter: none;}
   .searchPage .top .title{font-size: 30px;}
   .searchPage .top .close{font-size: 16px;padding: 4px 16px}
   .searchPage .center{width: 330px;}
   .searchPage .center .searchInput{font-size: 16px;}
   .searchPage .center .searchBtn{font-size: 16px;}
-  .cartPage{width: 373px;}
+  .cartPage{width: 390px;}
   .cartPage .cartInner{padding: 40px 10px;}
   .cartPage .cartInner .title{justify-content: space-between;font-size: 24px;margin-bottom: 20px;}
   .cartPage .cartInner .box .right .top .no{display: none;}

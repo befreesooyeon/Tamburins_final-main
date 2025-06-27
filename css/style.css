@@ -155,9 +155,9 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
     100% { transform: translate(-50%, -50%) rotate(0deg) scale(1); }
   }
 
-.about .aboutImg .aboutImg1:hover{  filter: brightness(1.2) contrast(1.1);
+.about .aboutImg .aboutImg:hover{  filter: brightness(1.2) contrast(1.1);
   transition: filter 0.5s ease;}
-  .about .aboutImg .aboutImg1 {
+  .about .aboutImg .aboutImg {
     position: absolute;
     top: 55%;
     left: 50%;
@@ -541,7 +541,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
   header .innerheader nav .menuwrap .text .menuBusiness {padding: 15px 25px 15px;}
   header .innerheader nav .menuwrap .category { padding: 0 25px 20px 25px;}
   header .innerheader nav .menuwrap .text .hideSubmenu p{padding: 15px 25px 15px;}
-
+  .wrap.on{filter: none;}
   .searchPage .top .title{font-size: 30px;}
   .searchPage .top .close{font-size: 16px;padding: 4px 16px}
   .searchPage .center{width: 330px;}

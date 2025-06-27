@@ -660,7 +660,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .footerWrap .footerInner .center{display: flex;justify-content: space-between;padding: 20px 0; align-items: flex-end; line-height: 1.6; border-bottom: 1px solid #57442a;margin: 0 10px; font-size: 10px; width: 90%;}
 .footerWrap .footerInner .center .footerRight .add{display: none;}
 .footerWrap .footerInner .tam{font-size: 10px;}
-  
+.wrap.on{filter: none;}
     .searchPage .top .title{font-size: 30px;}
     .searchPage .top .close{font-size: 16px;padding: 4px 16px}
     .searchPage .center{width: 330px;}
