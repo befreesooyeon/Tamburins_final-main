@@ -245,8 +245,8 @@ header .innerheader nav .menuwrap .text .hideSubmenu p{font-size: 16px;color: #8
 /* 서브메뉴숨기기 */
 header .innerheader nav .menuwrap .text .hideSubmenu {display:none;}
 header .innerheader nav .menuwrap .text .hideSubmenu.hide {display: block;}
-
-  
+.cartPage .cartInner .title{margin-bottom: 10px;}
+.wrap.on{filter: none;}
   /* footer*/
   .footerWrap{height: 80vh;}
   .footerWrap .footerInner{position: absolute;top: 73%;left: 50%;transform: translateX(-50%); width: 90%;color: #18130c;}

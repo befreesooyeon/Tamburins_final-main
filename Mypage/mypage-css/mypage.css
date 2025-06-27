@@ -187,8 +187,8 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
   header .innerheader nav .menuwrap .text .hideSubmenu {display:none;}
   header .innerheader nav .menuwrap .text .hideSubmenu.hide {display: block;}
 
-
-
+  .wrap.on{filter: none;}
+  .cartPage .cartInner .title{margin-bottom: 10px;}
   /* footer*/
 .footerWrap{height: 80vh;}
 .footerWrap .footerInner{position: absolute;top: 73%;left: 50%;transform: translateX(-50%); width: 90%;color: #18130c;}

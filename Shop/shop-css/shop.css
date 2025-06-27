@@ -330,8 +330,8 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
   /* 서브메뉴숨기기 */
   header .innerheader nav .menuwrap .text .hideSubmenu {display:none;}
   header .innerheader nav .menuwrap .text .hideSubmenu.hide {display: block;}
-
-
+  .cartPage .cartInner .title{margin-bottom: 10px;}
+  .wrap.on{filter: none;}
     .shop .shop-visual-img{height: 500px;}
     .shop .shop-visual-img video{width: 100%;object-fit: cover;height: 100%;}
     .shop .shop-visual-img .visualTxt{text-align: center;top: 60%;left: 50%;position: absolute;transform: translate(-50%,-50%); color: #fff;}

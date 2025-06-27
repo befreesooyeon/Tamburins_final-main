@@ -427,11 +427,12 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 
       /* footer*/
 .footerWrap{height: 80vh;}
-.footerWrap .footerInner{position: absolute;top: 73%;left: 50%;transform: translateX(-50%); width: 90%;color: #18130c;}
+.footerWrap .footerInner{position: absolute;top: 60%;left: 50%;transform: translateX(-50%); width: 90%;color: #18130c;}
 .footerWrap .footerInner .brandName{font-size: 50px;}
 .footerWrap .footerInner .center{font-size: 12px;}
 .footerWrap .footerInner .tam{font-size: 12px;}
-  
+.wrap.on{filter: none;}
+.cartPage .cartInner .title{margin-bottom: 10px;}
   /* about */
 .about .about-main .mainbg img {object-fit: cover;height: 100%;width: 100%;}
 .about .about-main .txtBox{left: 5%;width: 90%;}
@@ -443,7 +444,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
   height: 100vh; /* 스크롤 충분히 확보 */
   position: relative;
 }
-.about .about-second{position: relative;background: #000;height: 70vh; overflow: hidden;}
+.about .about-second{position: relative;background: #000;height: 90vh; overflow: hidden;}
 .about .about-second .txts{font-size: 72px;padding: 50px 0;}
 
 .about .about-second .txts span{display: inline-block;position: relative;}
@@ -496,7 +497,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .history-img.b img:nth-child(2){margin: 20px 0 -10px 30px;width: 365px;}
 .history-img img { width: 100%;  height: auto; object-fit: cover; }
 
-.about-product{height: 100vh;}
+.about-product{height: 120vh;}
 .about-product .collection{font-size: 130px;margin-bottom: 50px;}
 .about-product .imgBox{gap: 20px;}
 .about-product .imgBox img{height: 300px;}

@@ -225,8 +225,8 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
   header .innerheader nav .menuwrap .text .hideSubmenu {display:none;}
   header .innerheader nav .menuwrap .text .hideSubmenu.hide {display: block;}
 
-
-
+  .cartPage .cartInner .title{margin-bottom: 10px;}
+  .wrap.on{filter: none;}
   /* visual 부분 */
   .campaign .inner .campaignVisual .textwrap .eng {font-size: 28px;margin-bottom: 120px;}
   .campaign .inner .campaignVisual .textwrap .smallText {text-align: center;font-size: 16px;}
