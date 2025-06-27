@@ -467,7 +467,13 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
   .cartPage .cartInner .shopping{display: none;}
   .cartPage .cartInner .purBtn{display: none;}
   .cartPage .cartInner .purBtn2{display: block;}
+  .shop .shop-visual-img video::-webkit-media-controls {
+    display: none !important;
+  }
   
+  .shop .shop-visual-img video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;}
   .footerWrap {height: 250px;}
 .footerWrap .bg{width: 100%;position: absolute;bottom: 0;left: 0;height: 250px;}
 .footerWrap .bg img{height: 100%;width: 100%;object-fit:cover;}
