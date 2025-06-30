@@ -186,7 +186,13 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .footerWrap .footerInner .tam{text-align: center;padding-top: 10px;}
 
 
-
+@media screen and (max-width:1366px){
+  .campaign .inner .campaignVisual .textwrap .eng {font-size: 45px;}
+  .campaign .inner .campaignVisual .textwrap .smallText {margin: 0 auto;font-size: 14px;}
+  .campaign .inner .campaignVisual.motion .leftImg {width: 280px;}
+  .campaign .inner .campaignVisual.motion .rightImg {width: 280px;}
+  .campaign .inner .feel .feel-inner .slideText .right {transform: translateX(500px) translateY(230px);}
+}
 
 /*반응형 태블릿 */
 @media screen and (max-width:1024px) {
@@ -310,6 +316,7 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
 
   /* visual 부분 */
 .campaign {padding-top: 90px;}
+.campaign .inner .campaignVisual {margin-bottom: 100px;}
 .campaign .inner .campaignVisual.motion .textwrap .logoText {width: 40px;margin: 0 auto;}
 .campaign .inner .campaignVisual.motion .leftImg{position: absolute;left: 0;top: 30%;animation: slideInLeft 1s ease-out forwards;animation-delay: 0.3s; opacity: 0;display: none;}
 .campaign .inner .campaignVisual.motion .rightImg{position: absolute;left:23px;top: 15%;animation: slideInRight 1s ease-out forwards;animation-delay: 0.3s;opacity: 0;width: 100%;height: 280px;}
@@ -339,7 +346,7 @@ header .innerheader nav .menubar {display:block;text-align: right;border: none;b
 
 /* opera */
 .Opera .Opera-inner .text-wrapper .text-left, .Opera .Opera-inner .text-wrapper .text-right {font-size: 30px;}
-.Opera .Opera-inner .text-wrapper .text-right {transform: translate(-15%, 0%)}
+.Opera .Opera-inner .text-wrapper .text-right {transform: translate(-8px, 0px)}
 .Opera .Opera-inner span {width: 220px;height: 234px;}
 
 

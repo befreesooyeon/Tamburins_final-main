@@ -355,7 +355,19 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 .footerWrap .footerInner .center .footerRight .sns li a:hover{color: #fff;}
 .footerWrap .footerInner .tam{text-align: center;padding-top: 10px;}
 
-
+@media screen and (max-width:1370px) {
+  .visual .txt .title {font-size: 170px;letter-spacing: -10px;}
+  .visual .txt .sub .sub1 {font-size: 50px;}
+  .visual .txt .sub .sub2 {font-size: 36px;}
+  .visual .txt .sub .sub3 {font-size: 50px;}
+  .visual .txt .des {font-size:24px;}
+  .about .about-main .about-title {font-size: 90px;}
+  .about .aboutTxt {font-size: 36px;}
+  .philosophy .inner .mainText {font-size: 48px;text-transform: uppercase;text-align: center;padding: 480px 200px;}
+}
+@media screen and (max-width:1180px) {
+  .philosophy .inner .mainText {font-size: 48px;text-transform: uppercase;text-align: center;padding: 300px 200px;}
+}
 /*반응형 태블릿 */
 @media screen and (max-width:1024px) {
   /* 헤더 */
@@ -437,8 +449,7 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
 /* philosophy*/
 .philosophy {width: 100%;height: 90vh;background: #fff;}
 .philosophy .inner {width: 100%;height: 100%;position: relative;margin: 0 auto;}
-.philosophy .inner .mainText {font-size: 62px;text-transform: uppercase;text-align: center;padding: 255px 200px;}
-.philosophy .inner .eggImg {top:65%}
+.philosophy .inner .mainText {font-size: 36px;text-transform: uppercase;text-align: center;padding: 250px 200px;}
 .philosophy .inner .eggImg .egg2 {left:9.8%}
 
 /* footer*/

@@ -169,6 +169,8 @@ header .innerheader nav{display: flex;justify-content: space-between;width: 170p
   .shop-detail-inner .right .txtBox .con3 .tit{display: flex;justify-content: space-between;padding-bottom: 10px;border-bottom: 1px solid #eee;}
   .shop-detail-inner .right .txtBox .con3 .txt.on{  max-height: 300px;
     opacity: 1;margin-bottom: 20px; }
+  .shop-detail-inner .right .txtBox .con3 p .img{display: inline-block;transition: all 0.3s;}
+  .shop-detail-inner .right .txtBox .con3.on p .img{transform: rotate(180deg);display: inline-block;transition: all 0.3s;}
   
   
   

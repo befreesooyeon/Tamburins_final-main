@@ -117,6 +117,10 @@ $(function(){
           e.preventDefault(); // 링크 동작 막기 (a 태그인 경우)
           $('.shop-detail-inner .right .txtBox .con3 .txt').toggleClass('on');
         });
+        $('.shop-detail-inner .right .txtBox .con3').on('click', function(e){
+          e.preventDefault(); // 링크 동작 막기 (a 태그인 경우)
+          $('.shop-detail-inner .right .txtBox .con3').toggleClass('on');
+        });
       });
 
      
